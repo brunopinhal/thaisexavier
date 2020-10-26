@@ -1,0 +1,34 @@
+// General Style
+@font-face {
+  font-family: Brandon Grotesque Med;
+  src: url("../fonts/brandon_med-webfont.woff") format('woff');
+}
+
+@font-face {
+  font-family: Brandon Grotesque Reg;
+  src: url("../fonts/brandon_reg-webfont.woff") format('woff');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  font-family: 'Brandon Grotesque Reg', sans-serif;
+  font-size: 14px;
+
+  background: var(--sand);
+}
+
+button {
+  cursor: pointer;
+}
+
+:root {
+  --blue: #6D95AF;
+  --dark-blue: #2A4D6B;
+  --salmon: #FFBEAF;
+  --sand: #fffcf3;
+}
